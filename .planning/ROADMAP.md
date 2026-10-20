@@ -30,7 +30,10 @@ Decimal phases appear between their surrounding integers in numeric order.
   3. O tema é escuro/neutro e minimalista, com texto legível (contraste WCAG AA) em todos os tamanhos
   4. Uma navegação fixa no topo leva com scroll suave às seções (âncoras de projetos e "Sobre mim")
   5. Ao abrir, o visitante lê em segundos o nome, o rótulo "Desenvolvedor Front-End" e uma frase-pitch, sem precisar rolar; e ao compartilhar o link o preview mostra título, descrição e imagem (Open Graph)
-**Plans**: TBD
+**Plans**: 3 plans
+- [ ] 01-01-PLAN.md — Walking Skeleton: scaffold Vite+React+TS+Tailwind+Framer Motion, dark theme tokens, hero above the fold, deploy to a public static URL (HERO-01, LAYOUT-02)
+- [ ] 01-02-PLAN.md — Responsive shell: fixed top nav + smooth-scroll anchors + placeholder #projetos/#sobre sections, verified at 375/768/1280px (LAYOUT-01, LAYOUT-02, LAYOUT-03)
+- [ ] 01-03-PLAN.md — Meta/Open Graph tags + placeholder OG image + favicon so the shared-link preview unfurls (META-01, HERO-01)
 **UI hint**: yes
 
 ### Phase 2: Vitrine de Projetos
@@ -78,7 +81,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Esqueleto no Ar | 0/TBD | Not started | - |
+| 1. Esqueleto no Ar | 0/3 | Not started | - |
 | 2. Vitrine de Projetos | 0/TBD | Not started | - |
 | 3. Sobre mim + Contato | 0/TBD | Not started | - |
 | 4. Polimento e Micro-interações | 0/TBD | Not started | - |
