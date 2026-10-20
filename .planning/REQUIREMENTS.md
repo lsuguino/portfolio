@@ -63,24 +63,24 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| LAYOUT-01 | TBD | Pending |
-| LAYOUT-02 | TBD | Pending |
-| LAYOUT-03 | TBD | Pending |
-| HERO-01 | TBD | Pending |
-| PROJ-01 | TBD | Pending |
-| PROJ-02 | TBD | Pending |
-| PROJ-03 | TBD | Pending |
-| ABOUT-01 | TBD | Pending |
-| ABOUT-02 | TBD | Pending |
-| CONTACT-01 | TBD | Pending |
-| POLISH-01 | TBD | Pending |
-| META-01 | TBD | Pending |
+| LAYOUT-01 | Phase 1 | Pending |
+| LAYOUT-02 | Phase 1 | Pending |
+| LAYOUT-03 | Phase 1 | Pending |
+| HERO-01 | Phase 1 | Pending |
+| PROJ-01 | Phase 2 | Pending |
+| PROJ-02 | Phase 2 | Pending |
+| PROJ-03 | Phase 2 | Pending |
+| ABOUT-01 | Phase 3 | Pending |
+| ABOUT-02 | Phase 3 | Pending |
+| CONTACT-01 | Phase 3 | Pending |
+| POLISH-01 | Phase 4 | Pending |
+| META-01 | Phase 1 | Pending |
 
 **Coverage:**
 - v1 requirements: 12 total
-- Mapped to phases: 0 (pending roadmap)
-- Unmapped: 12 ⚠️
+- Mapped to phases: 12 ✓
+- Unmapped: 0 ✓
 
 ---
 *Requirements defined: 2026-10-20*
-*Last updated: 2026-10-20 after initial definition*
+*Last updated: 2026-10-20 after roadmap creation (phase mappings filled in)*
