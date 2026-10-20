@@ -18,7 +18,7 @@ Fora desta fase: conteúdo real dos cards de projeto (Fase 2), seção "Sobre mi
 
 ### Stack & Build
 - **D-01:** Stack = **Vite + React + TypeScript**, estilização com **Tailwind CSS**, animações/micro-interações com **Framer Motion**. Saída estática (`vite build` → `dist/`). Segue a recomendação de `.planning/research/STACK.md`. — **Reversibility:** costly — trocar o framework depois reescreve toda a árvore de componentes e a config de build; é a fundação das Fases 2–4.
-- **D-02:** Build totalmente estático, sem backend/servidor (consistente com PROJECT.md "Out of Scope").
+- **D-02:** Build totalmente estático, sem backend/servidor (consistente com PROJECT.md "Out of Scope"). Entregue por D-01 (build estático Vite → `dist/`), verificado no plano 01-01.
 
 ### Direção Visual
 - **D-03:** Tema fixo escuro/neutro, minimalista, **mono-neutro + 1 cor de acento** (fundo quase-preto/grafite, texto claro, acento único em links/hover). Referência de UX: mattjinn.com. Sem toggle dark/light. — **Reversibility:** reversible — é escolha de tokens de tema no Tailwind.

@@ -20,6 +20,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 ## Phase Details
 
 ### Phase 1: Esqueleto no Ar (casca + navegação + hero)
+
 **Goal**: Publicar um site de página única já no ar — responsivo, escuro/minimalista, com navegação por âncoras, hero que comunica o cargo e meta tags que fazem o preview do link funcionar ao compartilhar.
 **Mode:** mvp
 **Depends on**: Nothing (first phase)
@@ -30,13 +31,19 @@ Decimal phases appear between their surrounding integers in numeric order.
   3. O tema é escuro/neutro e minimalista, com texto legível (contraste WCAG AA) em todos os tamanhos
   4. Uma navegação fixa no topo leva com scroll suave às seções (âncoras de projetos e "Sobre mim")
   5. Ao abrir, o visitante lê em segundos o nome, o rótulo "Desenvolvedor Front-End" e uma frase-pitch, sem precisar rolar; e ao compartilhar o link o preview mostra título, descrição e imagem (Open Graph)
+
 **Plans**: 3 plans
+**Wave 1**
 - [ ] 01-01-PLAN.md — Walking Skeleton: scaffold Vite+React+TS+Tailwind+Framer Motion, dark theme tokens, hero above the fold, deploy to a public static URL (HERO-01, LAYOUT-02)
+
+**Wave 2** *(blocked on Wave 1 completion)*
 - [ ] 01-02-PLAN.md — Responsive shell: fixed top nav + smooth-scroll anchors + placeholder #projetos/#sobre sections, verified at 375/768/1280px (LAYOUT-01, LAYOUT-02, LAYOUT-03)
 - [ ] 01-03-PLAN.md — Meta/Open Graph tags + placeholder OG image + favicon so the shared-link preview unfurls (META-01, HERO-01)
+
 **UI hint**: yes
 
 ### Phase 2: Vitrine de Projetos
+
 **Goal**: Mostrar de 3 a 5 projetos em cards claros e escaneáveis, cada um com descrição útil, tags de stack e pelo menos um link funcional (código e/ou demo) — a metade "ver os projetos" do valor central.
 **Mode:** mvp
 **Depends on**: Phase 1
@@ -46,10 +53,12 @@ Decimal phases appear between their surrounding integers in numeric order.
   2. Cada card mostra título, descrição curta (o que é, o que o autor fez e um ponto relevante) e tags de stack técnica
   3. Cada card tem link para o código (GitHub) e/ou demo ao vivo, e todo link clicado abre um destino real (status 200, sem localhost nem placeholder)
   4. Os cards são alcançáveis pela âncora de navegação do topo
+
 **Plans**: TBD
 **UI hint**: yes
 
 ### Phase 3: Sobre mim + Contato
+
 **Goal**: Apresentar quem o autor é e concentrar os caminhos de contato num lugar só, sempre alcançáveis — a metade "falar com o autor" do valor central.
 **Mode:** mvp
 **Depends on**: Phase 2
@@ -59,10 +68,12 @@ Decimal phases appear between their surrounding integers in numeric order.
   2. O e-mail e as redes (LinkedIn/WhatsApp) aparecem como links reais (mailto:/href) na seção "Sobre mim", clicáveis em até 3 toques no mobile
   3. Um caminho de contato (e-mail + rede) está sempre acessível pela navegação do topo ou pelo rodapé, sem depender de rolar a página
   4. A seção "Sobre mim" é alcançável pela âncora de navegação do topo
+
 **Plans**: TBD
 **UI hint**: yes
 
 ### Phase 4: Polimento e Micro-interações
+
 **Goal**: Dar o toque "techie" sutil — hover nos cards e transições suaves — sem jank nem exagero, respeitando quem prefere menos movimento.
 **Mode:** mvp
 **Depends on**: Phase 3
@@ -71,6 +82,7 @@ Decimal phases appear between their surrounding integers in numeric order.
   1. Ao passar o mouse sobre um card, há uma micro-interação sutil (ex.: leve elevação/realce), usando apenas transform/opacity
   2. As transições duram entre 150 e 250ms e rolam a 60fps, sem travadas perceptíveis
   3. Com `prefers-reduced-motion` ativo, as animações são reduzidas ou desligadas
+
 **Plans**: TBD
 **UI hint**: yes
 
