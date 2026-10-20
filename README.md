@@ -39,16 +39,18 @@ Gera o bundle estático em `dist/`. A saída é um diretório com `index.html` e
 
 ## Deploy
 
-> URL pública: **a preencher após o primeiro deploy** (Checkpoint Task 3)
+> **URL pública (produção):** https://portfolio-leosuguino.vercel.app/
 
-### Opção A — Vercel (recomendado, zero-config)
+### Vercel (em uso — deploy contínuo)
+
+O repositório está conectado a um projeto na Vercel: **todo push para `master` dispara um deploy automático**. A Vercel detecta o framework Vite automaticamente (build command `npm run build`, output directory `dist`); nenhuma alteração no `vite.config.ts` é necessária.
+
+Deploy manual pela CLI (opcional):
 
 ```bash
 npm i -g vercel
 vercel
 ```
-
-O Vercel detecta automaticamente o framework Vite: build command `npm run build`, output directory `dist`. Nenhuma alteração no `vite.config.ts` é necessária.
 
 ### Opção B — GitHub Pages
 
