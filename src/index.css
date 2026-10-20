@@ -1,0 +1,33 @@
+@import '@fontsource/geist/400.css';
+@import '@fontsource/geist/500.css';
+@import '@fontsource/geist/700.css';
+@import '@fontsource/inter/400.css';
+@import '@fontsource/inter/500.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html,
+  body,
+  #root {
+    @apply bg-bg text-text;
+    font-family: 'Inter', sans-serif;
+    scroll-behavior: smooth;
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-family: 'Geist', 'Inter', sans-serif;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    * {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
