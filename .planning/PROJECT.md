@@ -12,13 +12,14 @@ Fazer um recrutador olhar os projetos e conseguir entrar em contato com o autor 
 
 ### Validated
 
-(Nenhum ainda — lançar para validar)
+- ✓ Página única, responsiva (375/768/1280px), visual escuro/neutro minimalista inspirado no mattjinn.com — Phase 1
+- ✓ Menu de navegação fixo no topo com âncoras de scroll suave para as seções — Phase 1 (conteúdo das amostras de projetos entra na Phase 2)
+- ✓ Seção de apresentação (hero) comunicando que o autor é dev front-end — Phase 1
+- ✓ Meta tags / Open Graph para preview do link ao compartilhar — Phase 1
+- ✓ Site publicado em URL pública (Vercel, deploy contínuo) — Phase 1
 
 ### Active
 
-- [ ] Página única, responsiva, com visual moderno e escuro/neutro, minimalista, inspirado no mattjinn.com
-- [ ] Menu de navegação no topo com atalhos/amostras dos projetos e para a aba "Sobre mim"
-- [ ] Seção de apresentação (hero) comunicando rapidamente que o autor é dev front-end
 - [ ] Vitrine de 3 a 5 projetos em cards, cada um com descrição e link para código e/ou demo
 - [ ] Aba "Sobre mim" que também concentra o contato (quem o autor é + como falar com ele)
 - [ ] Links de contato/redes sempre acessíveis (e-mail e redes sociais)
@@ -50,10 +51,13 @@ Fazer um recrutador olhar os projetos e conseguir entrar em contato com o autor 
 
 | Decision | Rationale | Outcome |
 |----------|-----------|---------|
-| Página única (single-page) | Referência (mattjinn.com) e objetivo pedem algo direto e enxuto | — Pending |
-| Aba "Sobre mim" acumula apresentação + contato | Pedido explícito do autor; concentra "quem sou" e "como falar comigo" num lugar só | — Pending |
-| Estética escura/neutra e minimalista | Inspirada na referência escolhida pelo autor | — Pending |
+| Página única (single-page) | Referência (mattjinn.com) e objetivo pedem algo direto e enxuto | ✓ Good — Phase 1 |
+| Aba "Sobre mim" acumula apresentação + contato | Pedido explícito do autor; concentra "quem sou" e "como falar comigo" num lugar só | — Pending (Phase 3) |
+| Estética escura/neutra e minimalista | Inspirada na referência escolhida pelo autor | ✓ Good — Phase 1 |
 | Foco em recrutadores/empresas | Objetivo principal é conseguir vagas/trabalho | — Pending |
+| Stack: Vite + React + TS + Tailwind + Framer Motion | Recomendação da pesquisa; reuso de componentes, dark mode e animação; sinaliza skill de front-end | ✓ Good — Phase 1 |
+| Acento visual ciano/azul-elétrico sobre grafite | Critério do Claude dentro de "escuro + 1 acento"; contraste WCAG AA | ✓ Good — Phase 1 |
+| Deploy: Vercel conectado ao GitHub (branch `main`, deploy contínuo) | Zero-config para Vite; cada push publica | ✓ Good — Phase 1 |
 
 ## Evolution
 
@@ -73,4 +77,4 @@ This document evolves at phase transitions and milestone boundaries.
 4. Update Context with current state
 
 ---
-*Last updated: 2026-10-19 after initialization*
+*Last updated: 2026-10-21 after Phase 1 (Esqueleto no Ar — site live at https://portfolio-leosuguino.vercel.app/)*

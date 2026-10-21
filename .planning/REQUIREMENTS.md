@@ -9,13 +9,13 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Layout & Shell
 
-- [ ] **LAYOUT-01**: Site é uma página única, responsiva, funcionando em 375px, 768px e 1280px
-- [ ] **LAYOUT-02**: Tema fixo escuro/neutro, minimalista, inspirado no mattjinn.com, com contraste de cor acessível (WCAG AA)
-- [ ] **LAYOUT-03**: Navegação fixa no topo com âncoras de scroll suave para as seções (amostras dos projetos e "Sobre mim")
+- [x] **LAYOUT-01**: Site é uma página única, responsiva, funcionando em 375px, 768px e 1280px
+- [x] **LAYOUT-02**: Tema fixo escuro/neutro, minimalista, inspirado no mattjinn.com, com contraste de cor acessível (WCAG AA)
+- [x] **LAYOUT-03**: Navegação fixa no topo com âncoras de scroll suave para as seções (amostras dos projetos e "Sobre mim")
 
 ### Hero
 
-- [ ] **HERO-01**: Seção de apresentação comunica em segundos que o autor é desenvolvedor front-end (nome, rótulo de cargo, frase-pitch)
+- [x] **HERO-01**: Seção de apresentação comunica em segundos que o autor é desenvolvedor front-end (nome, rótulo de cargo, frase-pitch)
 
 ### Projetos
 
@@ -32,7 +32,7 @@ Requirements for initial release. Each maps to roadmap phases.
 ### Polimento
 
 - [ ] **POLISH-01**: Micro-interações sutis — hover nos cards e transições suaves (CSS apenas, 150–250ms)
-- [ ] **META-01**: Página tem `<title>`, `meta description` e tags Open Graph para previews ao compartilhar o link
+- [x] **META-01**: Página tem `<title>`, `meta description` e tags Open Graph para previews ao compartilhar o link
 
 ## v2 Requirements
 
@@ -63,10 +63,10 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| LAYOUT-01 | Phase 1 | Pending |
-| LAYOUT-02 | Phase 1 | Pending |
-| LAYOUT-03 | Phase 1 | Pending |
-| HERO-01 | Phase 1 | Pending |
+| LAYOUT-01 | Phase 1 | Complete |
+| LAYOUT-02 | Phase 1 | Complete |
+| LAYOUT-03 | Phase 1 | Complete |
+| HERO-01 | Phase 1 | Complete |
 | PROJ-01 | Phase 2 | Pending |
 | PROJ-02 | Phase 2 | Pending |
 | PROJ-03 | Phase 2 | Pending |
@@ -74,7 +74,7 @@ Which phases cover which requirements. Updated during roadmap creation.
 | ABOUT-02 | Phase 3 | Pending |
 | CONTACT-01 | Phase 3 | Pending |
 | POLISH-01 | Phase 4 | Pending |
-| META-01 | Phase 1 | Pending |
+| META-01 | Phase 1 | Complete |
 
 **Coverage:**
 - v1 requirements: 12 total
@@ -83,4 +83,4 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 ---
 *Requirements defined: 2026-10-20*
-*Last updated: 2026-10-20 after roadmap creation (phase mappings filled in)*
+*Last updated: 2026-10-21 after Phase 1 completion (5 requirements verified)*

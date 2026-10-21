@@ -12,7 +12,7 @@ O projeto sobe no ar cedo e cresce em fatias verticais entregáveis. A Fase 1 pu
 
 Decimal phases appear between their surrounding integers in numeric order.
 
-- [ ] **Phase 1: Esqueleto no Ar (casca + navegação + hero)** - Site de página única publicado, responsivo, tema escuro, hero que comunica "dev front-end" e meta tags para preview de link
+- [x] **Phase 1: Esqueleto no Ar (casca + navegação + hero)** - Site de página única publicado, responsivo, tema escuro, hero que comunica "dev front-end" e meta tags para preview de link (completed 2026-10-21)
 - [ ] **Phase 2: Vitrine de Projetos** - Cards de 3 a 5 projetos com título, descrição, tags de stack e links para código/demo
 - [ ] **Phase 3: Sobre mim + Contato** - Seção que apresenta o autor e concentra os caminhos de contato (e-mail + redes) sempre acessíveis
 - [ ] **Phase 4: Polimento e Micro-interações** - Hover nos cards e transições suaves em CSS, respeitando reduced-motion
@@ -32,13 +32,13 @@ Decimal phases appear between their surrounding integers in numeric order.
   4. Uma navegação fixa no topo leva com scroll suave às seções (âncoras de projetos e "Sobre mim")
   5. Ao abrir, o visitante lê em segundos o nome, o rótulo "Desenvolvedor Front-End" e uma frase-pitch, sem precisar rolar; e ao compartilhar o link o preview mostra título, descrição e imagem (Open Graph)
 
-**Plans**: 3 plans
+**Plans**: 3/3 plans complete
 **Wave 1**
-- [ ] 01-01-PLAN.md — Walking Skeleton: scaffold Vite+React+TS+Tailwind+Framer Motion, dark theme tokens, hero above the fold, deploy to a public static URL (HERO-01, LAYOUT-02)
+- [x] 01-01-PLAN.md — Walking Skeleton: scaffold Vite+React+TS+Tailwind+Framer Motion, dark theme tokens, hero above the fold, deploy to a public static URL (HERO-01, LAYOUT-02)
 
 **Wave 2** *(blocked on Wave 1 completion)*
-- [ ] 01-02-PLAN.md — Responsive shell: fixed top nav + smooth-scroll anchors + placeholder #projetos/#sobre sections, verified at 375/768/1280px (LAYOUT-01, LAYOUT-02, LAYOUT-03)
-- [ ] 01-03-PLAN.md — Meta/Open Graph tags + placeholder OG image + favicon so the shared-link preview unfurls (META-01, HERO-01)
+- [x] 01-02-PLAN.md — Responsive shell: fixed top nav + smooth-scroll anchors + placeholder #projetos/#sobre sections, verified at 375/768/1280px (LAYOUT-01, LAYOUT-02, LAYOUT-03)
+- [x] 01-03-PLAN.md — Meta/Open Graph tags + placeholder OG image + favicon so the shared-link preview unfurls (META-01, HERO-01)
 
 **UI hint**: yes
 
@@ -93,7 +93,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Esqueleto no Ar | 0/3 | Not started | - |
+| 1. Esqueleto no Ar | 3/3 | Complete    | 2026-10-21 |
 | 2. Vitrine de Projetos | 0/TBD | Not started | - |
 | 3. Sobre mim + Contato | 0/TBD | Not started | - |
 | 4. Polimento e Micro-interações | 0/TBD | Not started | - |
